@@ -17,4 +17,5 @@ pandas
 matplotlib
 pillow
 scipy
-python3-pyaudio
+portaudio19-dev 
+python-all-dev
