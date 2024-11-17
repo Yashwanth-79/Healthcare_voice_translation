@@ -11,10 +11,9 @@ cryptography
 requests
 pydub
 pipwin
-pyaudio
 numpy
 pandas
 matplotlib
 pillow
 scipy
-python3-dev
+
