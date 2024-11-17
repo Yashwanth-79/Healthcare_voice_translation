@@ -30,3 +30,6 @@ psycopg2-binary
 Pillow
 python-dateutil
 portaudio
+chocolatey
+pipwin refresh
+pipwin insall portaudio
