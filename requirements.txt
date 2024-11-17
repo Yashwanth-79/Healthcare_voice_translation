@@ -10,3 +10,5 @@ python-dotenv
 cryptography
 requests
 pydub
+pipwin
+pyaudio
