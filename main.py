@@ -22,7 +22,7 @@ load_dotenv()
 
 # Initialize services
 security = BasicSecurity()
-client = Groq(api_key=os.getenv("api_key"))
+client = Groq(api_key=st.secrets["api_key"])
 audio_processor = AudioProcessor(client)
 translation_service = TranslationService(client)
 
