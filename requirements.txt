@@ -30,4 +30,4 @@ psycopg2-binary
 Pillow
 python-dateutil
 chocolatey
-pipwin insall portaudio
+pipwin install portaudio
