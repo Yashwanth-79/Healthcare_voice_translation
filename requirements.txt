@@ -16,4 +16,4 @@ pandas
 matplotlib
 pillow
 scipy
-
+portaudio
