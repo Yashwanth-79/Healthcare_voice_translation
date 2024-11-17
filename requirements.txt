@@ -6,4 +6,9 @@ deep_translator
 cryptography
 groq
 audio_recorder_streamlit
-dotenv
+python-dotenv
+cryptography
+requests
+portaudio19-dev
+python3-dev
+pydub
