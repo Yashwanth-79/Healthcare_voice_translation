@@ -9,6 +9,5 @@ audio_recorder_streamlit
 python-dotenv
 cryptography
 requests
-portaudio19-dev
 python3-dev
 pydub
