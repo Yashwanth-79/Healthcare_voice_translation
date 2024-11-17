@@ -1,7 +1,6 @@
 import streamlit as st
 import os
 from groq import Groq
-from dotenv import load_dotenv
 import logging
 import audio_recorder_streamlit as ast
 from src.security import BasicSecurity
@@ -16,10 +15,6 @@ logging.basicConfig(
     format='%(asctime)s - %(levelname)s - %(message)s',
     filename='app.log'
 )
-
-# Load environment variables
-load_dotenv()
-
 # Initialize services
 security = BasicSecurity()
 client = Groq(api_key=st.secrets["api_key"])
