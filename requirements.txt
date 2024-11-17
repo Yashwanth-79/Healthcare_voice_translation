@@ -18,5 +18,6 @@ matplotlib
 pillow
 scipy
 librosa
-portaudio19-dev 
+pyaudio
+portaudio19
 python3-pyaudio
