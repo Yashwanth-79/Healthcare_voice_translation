@@ -11,10 +11,6 @@ cryptography
 requests
 pydub
 pipwin
-numpy
-pandas
-matplotlib
-pillow
 scipy
 streamlit
 streamlit-audiorec
@@ -23,7 +19,6 @@ streamlit-option-menu
 extra-streamlit-components
 pydub
 deepgram-sdk
-openai
 PyYAML
 toml
 psycopg2-binary
