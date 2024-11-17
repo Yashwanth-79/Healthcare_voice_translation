@@ -29,4 +29,3 @@ toml
 psycopg2-binary
 Pillow
 python-dateutil
-chocolatey
