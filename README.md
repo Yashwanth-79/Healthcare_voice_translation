@@ -1,5 +1,7 @@
 # Healthcare Translation Web App with Generative AI
 
+Try out here : https://nao-medical-healthcare-translation.streamlit.app/
+
 ## Overview
 
 The Healthcare Translation Web App is designed to bridge language barriers in healthcare settings by utilizing generative AI technologies. This web app offers features such as real-time voice recording, transcription, translation, medical term enhancement, and text-to-speech capabilities. The app integrates state-of-the-art AI models, including **Groq**, **OpenAI**, and **DeepGram**, to ensure accurate and secure healthcare translations.
@@ -145,13 +147,12 @@ To start the web app, simply run:
 streamlit run app.py
 This will open the web application in your default browser.
 ```
-How the App Works
-Recording:
+## How the App Works:
 
+Recording:
 Users can click the "Start Recording" button to record their voice. The app captures and processes the audio.
 
 Audio Processing:
-
 After recording, the audio is transcribed to text using Groq and DeepGram SDK.
 
 Medical Term Enhancement:
@@ -159,36 +160,28 @@ Medical Term Enhancement:
 The transcribed text is passed through the AI model for enhancement and correction of medical terms.
 
 Translation:
-
 The enhanced text is then translated into the selected target language using Google Translator.
 
 Text-to-Speech:
-
 Users can play back both the original and translated text using the integrated gTTS feature.
 
 Secure Storage:
-
 All sensitive data is encrypted and stored securely.
 
-Audio File Formats
-
+Audio File Formats:
 The app supports audio input in WAV format, which is automatically processed for transcription.
 
-Supported Languages
-
+Supported Languages:
 The app currently supports translation between a wide range of languages, including:
 
 English, Spanish, French, German, Italian, Portuguese, Chinese (Simplified & Traditional), Japanese, Korean, Hindi, Arabic, Russian, and more.
 Security Features
 
 Data Encryption:
-
 All sensitive data, including recorded audio and transcriptions, is encrypted using Fernet encryption to ensure privacy.
 
 Secure File Storage:
-
 Audio files are stored in temporary secure locations with restricted access.
 
 Authentication & Authorization:
-
 Basic authentication mechanisms ensure only authorized users can access and process sensitive data.
